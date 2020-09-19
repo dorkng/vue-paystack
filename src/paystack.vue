@@ -4,7 +4,7 @@
     class="payButton"
     @click="payWithPaystack"
   >
-    <slot>Make Payment</slot>
+    <slot />
   </button>
   <div
     v-else
